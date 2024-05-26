@@ -9,7 +9,7 @@ primary_entity:
   dps:
     - id: 1
       type: boolean
-      name: switch
+      name: valve
 secondary_entities:
   - entity: valve
     name: Valve 2
@@ -17,7 +17,7 @@ secondary_entities:
     dps:
       - id: 2
         type: boolean
-        name: switch
+        name: valve
   - entity: number
     name: Timer 1
     translation_key: timer
