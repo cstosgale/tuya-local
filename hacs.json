@@ -1,5 +1,5 @@
 {
-  "name": "Tuya Local",
+  "name": "Tuya Local CSG",
   "render_readme": true,
   "homeassistant": "2024.2.0"
 }
