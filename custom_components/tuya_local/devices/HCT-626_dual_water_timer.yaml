@@ -3,14 +3,15 @@ products:
   - id: smd9kj1n
     name: HCT-626
 primary_entity:
-  entity: switch
-  name: Switch 1
+  entity: valve
+  name: Valve 1
+  class: water
   dps:
     - id: 1
       type: boolean
       name: switch
 secondary_entities:
-  - entity: switch
+  - entity: valve
     name: Valve 2
     class: water
     dps:
