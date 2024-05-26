@@ -7,8 +7,8 @@ import voluptuous as vol
 from fuzzywuzzy import fuzz
 from homeassistant.components.sensor import SensorDeviceClass
 
-from custom_components.tuya_local_csg.helpers.config import get_device_id
-from custom_components.tuya_local_csg.helpers.device_config import (
+from custom_components.tuya_local.helpers.config import get_device_id
+from custom_components.tuya_local.helpers.device_config import (
     TuyaDeviceConfig,
     TuyaDpsConfig,
     TuyaEntityConfig,
@@ -17,7 +17,7 @@ from custom_components.tuya_local_csg.helpers.device_config import (
     available_configs,
     get_config,
 )
-from custom_components.tuya_local_csg.sensor import TuyaLocalSensor
+from custom_components.tuya_local.sensor import TuyaLocalSensor
 
 from .const import GPPH_HEATER_PAYLOAD, KOGAN_HEATER_PAYLOAD
 

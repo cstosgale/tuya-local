@@ -4,31 +4,31 @@ from uuid import uuid4
 
 from homeassistant.helpers.entity import EntityCategory
 
-from custom_components.tuya_local_csg.alarm_control_panel import TuyaLocalAlarmControlPanel
-from custom_components.tuya_local_csg.binary_sensor import TuyaLocalBinarySensor
-from custom_components.tuya_local_csg.button import TuyaLocalButton
-from custom_components.tuya_local_csg.camera import TuyaLocalCamera
-from custom_components.tuya_local_csg.climate import TuyaLocalClimate
-from custom_components.tuya_local_csg.cover import TuyaLocalCover
-from custom_components.tuya_local_csg.event import TuyaLocalEvent
-from custom_components.tuya_local_csg.fan import TuyaLocalFan
-from custom_components.tuya_local_csg.helpers.device_config import (
+from custom_components.tuya_local.alarm_control_panel import TuyaLocalAlarmControlPanel
+from custom_components.tuya_local.binary_sensor import TuyaLocalBinarySensor
+from custom_components.tuya_local.button import TuyaLocalButton
+from custom_components.tuya_local.camera import TuyaLocalCamera
+from custom_components.tuya_local.climate import TuyaLocalClimate
+from custom_components.tuya_local.cover import TuyaLocalCover
+from custom_components.tuya_local.event import TuyaLocalEvent
+from custom_components.tuya_local.fan import TuyaLocalFan
+from custom_components.tuya_local.helpers.device_config import (
     TuyaDeviceConfig,
     possible_matches,
 )
-from custom_components.tuya_local_csg.humidifier import TuyaLocalHumidifier
-from custom_components.tuya_local_csg.lawn_mower import TuyaLocalLawnMower
-from custom_components.tuya_local_csg.light import TuyaLocalLight
-from custom_components.tuya_local_csg.lock import TuyaLocalLock
-from custom_components.tuya_local_csg.number import TuyaLocalNumber
-from custom_components.tuya_local_csg.remote import TuyaLocalRemote
-from custom_components.tuya_local_csg.select import TuyaLocalSelect
-from custom_components.tuya_local_csg.sensor import TuyaLocalSensor
-from custom_components.tuya_local_csg.siren import TuyaLocalSiren
-from custom_components.tuya_local_csg.switch import TuyaLocalSwitch
-from custom_components.tuya_local_csg.vacuum import TuyaLocalVacuum
-from custom_components.tuya_local_csg.valve import TuyaLocalValve
-from custom_components.tuya_local_csg.water_heater import TuyaLocalWaterHeater
+from custom_components.tuya_local.humidifier import TuyaLocalHumidifier
+from custom_components.tuya_local.lawn_mower import TuyaLocalLawnMower
+from custom_components.tuya_local.light import TuyaLocalLight
+from custom_components.tuya_local.lock import TuyaLocalLock
+from custom_components.tuya_local.number import TuyaLocalNumber
+from custom_components.tuya_local.remote import TuyaLocalRemote
+from custom_components.tuya_local.select import TuyaLocalSelect
+from custom_components.tuya_local.sensor import TuyaLocalSensor
+from custom_components.tuya_local.siren import TuyaLocalSiren
+from custom_components.tuya_local.switch import TuyaLocalSwitch
+from custom_components.tuya_local.vacuum import TuyaLocalVacuum
+from custom_components.tuya_local.valve import TuyaLocalValve
+from custom_components.tuya_local.water_heater import TuyaLocalWaterHeater
 
 DEVICE_TYPES = {
     "alarm_control_panel": TuyaLocalAlarmControlPanel,

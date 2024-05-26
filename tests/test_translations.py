@@ -8,8 +8,8 @@ from os.path import dirname, join
 
 from homeassistant.util.json import load_json
 
-import custom_components.tuya_local_csg as root
-from custom_components.tuya_local_csg.helpers.device_config import (
+import custom_components.tuya_local as root
+from custom_components.tuya_local.helpers.device_config import (
     TuyaDeviceConfig,
     available_configs,
 )

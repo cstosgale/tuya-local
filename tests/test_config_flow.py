@@ -8,12 +8,12 @@ from homeassistant.const import CONF_HOST, CONF_NAME
 from homeassistant.data_entry_flow import FlowResultType
 from pytest_homeassistant_custom_component.common import MockConfigEntry
 
-from custom_components.tuya_local_csg import (
+from custom_components.tuya_local import (
     async_migrate_entry,
     async_setup_entry,
     config_flow,
 )
-from custom_components.tuya_local_csg.const import (
+from custom_components.tuya_local.const import (
     CONF_DEVICE_CID,
     CONF_DEVICE_ID,
     CONF_LOCAL_KEY,
