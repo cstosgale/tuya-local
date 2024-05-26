@@ -5,14 +5,14 @@ from unittest.mock import AsyncMock
 import pytest
 from pytest_homeassistant_custom_component.common import MockConfigEntry
 
-from custom_components.tuya_local.const import (
+from custom_components.tuya_local_csg.const import (
     CONF_DEVICE_ID,
     CONF_LOCAL_KEY,
     CONF_PROTOCOL_VERSION,
     CONF_TYPE,
     DOMAIN,
 )
-from custom_components.tuya_local.diagnostics import (
+from custom_components.tuya_local_csg.diagnostics import (
     async_get_config_entry_diagnostics,
     async_get_device_diagnostics,
 )

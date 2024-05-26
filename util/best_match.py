@@ -3,7 +3,7 @@
 import json
 import sys
 
-from custom_components.tuya_local.helpers.device_config import possible_matches
+from custom_components.tuya_local_csg.helpers.device_config import possible_matches
 
 
 class FakeDevice:
